@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   appbar: {
-      backgroundColor: 'rgba(255, 0, 0, 0.3)'
+      backgroundColor: 'rgba(0, 0, 0, 0.3)'
   }
 }));
 
@@ -33,9 +33,9 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            News
+           name
           </Typography>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">actions</Button>
         </Toolbar>
       </AppBar>
     </div>

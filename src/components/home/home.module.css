@@ -11,3 +11,15 @@
 .cat3 {
     height: 418
 }
+
+.row {
+    display: 'inline-block';
+    font-size: 40;
+    color: 'green'
+}
+
+.row1 {
+    display: 'inline-block';
+    font-size: 40;
+    color: 'green'
+}
